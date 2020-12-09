@@ -1,3 +1,12 @@
+# this time we do care about the number of the different
+# coloured bags in each bag. Rather than coming up with a clever way
+# to do this, we can simply append each bag in a bag to its contents
+# the same number of times that the bag appears in the bag
+# so a bag's contents could like like this, for example:
+# ['dull lime', 'dull lime', 'dull lime', 'violent magenta', 'dark orange']
+# this allows us to basically copy the approach used in part 1, and save
+# some time and effort. It isn't very efficient though, but thankfully
+# this dataset is small enough to allow this method
 import re
 import time
 
