@@ -23,4 +23,6 @@ for k in range(length, len(numbers)):
         break
 
 
-print(f"not found: {not_found}")
+print(not_found)
+with open('output.txt', 'w') as file:
+    file.write(str(not_found))
